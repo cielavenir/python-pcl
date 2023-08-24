@@ -1,6 +1,6 @@
 #cython: embedsignature=True
 
-from collections import Sequence
+from six.moves.collections_abc import Sequence
 import numbers
 import numpy as np
 
